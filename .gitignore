@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- HTR PROJECT IGNORES ---
+data/
+venv/
+.venv/
+models/
+checkpoints/
+*.mlmodel
+*.pth
+*.pt
+*.bin
+.pytest_cache/
+.coverage
+htmlcov/
+
