@@ -1,0 +1,2070 @@
+{
+  "metadata": {
+    "seed": 42,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "total_pairs": 512,
+    "sha256_signatures": {
+      "train_images": "a3429438c481da05fdb98f9b582bc6410e6eb1a017ab8267d97f500b4d3c96bc",
+      "val_images": "3e0d30640c751d2ea668c03aa6d962fe0f6083f8aede34eab23ba127136f717e",
+      "test_images": "1fd77786255a103e6c69dc3d07bbf22ac3f5dbc921a2c32bbf77ba15e7af772c"
+    }
+  },
+  "splits": {
+    "train": [
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03497_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03497_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03261_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03261_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07855_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07855_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01126_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01126_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10495_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10495_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00806_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00806_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11459_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11459_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02667_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02667_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02998_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02998_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_04165_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_04165_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05616_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05616_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10049_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10049_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00827_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00827_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01438_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01438_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03499_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03499_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0018_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0018_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0005_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0005_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01062_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01062_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09040_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09040_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01837_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01837_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05347_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05347_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_04855_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_04855_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09760_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09760_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00131_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00131_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12377_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12377_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02960_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02960_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00019_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00019_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03259_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03259_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0004_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0004_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09341_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09341_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03686_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03686_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01724_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01724_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08276_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08276_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09744_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09744_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01569_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01569_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11375_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11375_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0007_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0007_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00086_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00086_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0011_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0011_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09817_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09817_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00464_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00464_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00395_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00395_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01146_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01146_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01656_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01656_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00229_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00229_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02541_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02541_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08632_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08632_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03053_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03053_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_04027_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_04027_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10227_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10227_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05328_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05328_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07065_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07065_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05226_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05226_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09487_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09487_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09894_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09894_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01602_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01602_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10301_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10301_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06592_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06592_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01546_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01546_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00208_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00208_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00309_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00309_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06535_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06535_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03260_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03260_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02852_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02852_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09010_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09010_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08201_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08201_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06534_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06534_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03626_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03626_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05423_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05423_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0003_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0003_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09488_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09488_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12108_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12108_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06591_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06591_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08004_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08004_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01236_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01236_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03500_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03500_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00830_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00830_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08342_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08342_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0011_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0011_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09221_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09221_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07089_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07089_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00774_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00774_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06749_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06749_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08569_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08569_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02999_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02999_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07965_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07965_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08985_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08985_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07387_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07387_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09102_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09102_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0006_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0006_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0004_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0004_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08382_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08382_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02367_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02367_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12231_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12231_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05409_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05409_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11728_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11728_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09142_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09142_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00877_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00877_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08906_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08906_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12153_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12153_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0014_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0014_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00505_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00505_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05331_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05331_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0006_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0006_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08472_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08472_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08630_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08630_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00829_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00829_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0001_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0001_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05188_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05188_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01568_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01568_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01143_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01143_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05289_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05289_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05511_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05511_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0009_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0009_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08344_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08344_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06972_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06972_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00771_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00771_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07016_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07016_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07015_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07015_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09046_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09046_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01838_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01838_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06827_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06827_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00041_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00041_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05236_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05236_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00396_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00396_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00900_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00900_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09893_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09893_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05370_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05370_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00444_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00444_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00828_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00828_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00312_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00312_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05504_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05504_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00775_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00775_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01726_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01726_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01439_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01439_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01141_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01141_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08840_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08840_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01238_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01238_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03355_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03355_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01291_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01291_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0002_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0002_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0010_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0010_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01570_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01570_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09141_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09141_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00504_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00504_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08757_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08757_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06931_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06931_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02997_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02997_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05404_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05404_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05708_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05708_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11096_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11096_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00328_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00328_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02633_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02633_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01151_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01151_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01292_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01292_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02630_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02630_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09430_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09430_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02366_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02366_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12549_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12549_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05097_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05097_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02854_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02854_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03498_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03498_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01437_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01437_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09429_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09429_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08343_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08343_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03258_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03258_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02101_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02101_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09011_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09011_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0009_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0009_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11043_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11043_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0011_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0011_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01142_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01142_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02632_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02632_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06747_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06747_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05509_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05509_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07967_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07967_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05929_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05929_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01544_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01544_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03310_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03310_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02771_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02771_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07064_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07064_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03055_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03055_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03308_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03308_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09759_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09759_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0008_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0008_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00265_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00265_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00465_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00465_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0010_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0010_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00042_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00042_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03231_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03231_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11011_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11011_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09917_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09917_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05326_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05326_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02803_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02803_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02631_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02631_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03602_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03602_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08537_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08537_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10570_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10570_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05330_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05330_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00876_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00876_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06748_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06748_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_14213_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_14213_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03233_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03233_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08418_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08418_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05477_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05477_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08568_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08568_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_14096_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_14096_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05251_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05251_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00898_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00898_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00087_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00087_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00310_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00310_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02902_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02902_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09826_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09826_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05484_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05484_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12523_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12523_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09039_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09039_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08905_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08905_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0019_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0019_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_04717_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_04717_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0017_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0017_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08383_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08383_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03847_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03847_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03092_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03092_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01022_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01022_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0010_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0010_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03449_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03449_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09045_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09045_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01039_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01039_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08474_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08474_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08277_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08277_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05231_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05231_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05654_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05654_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0015_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0015_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11249_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11249_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05243_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05243_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12690_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12690_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10167_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10167_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0014_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0014_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08629_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08629_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05425_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05425_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00772_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00772_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05218_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05218_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00897_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00897_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0003_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0003_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0013_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0013_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09960_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09960_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02015_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02015_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11181_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11181_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12933_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12933_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09573_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09573_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03358_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03358_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09745_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09745_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00899_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00899_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05489_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05489_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00804_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00804_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03357_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03357_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11017_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11017_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00157_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00157_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00874_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00874_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03232_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03232_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05282_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05282_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01123_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01123_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_04380_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_04380_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00394_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00394_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00956_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00956_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05682_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05682_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09665_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09665_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01063_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01063_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05284_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05284_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09136_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09136_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02211_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02211_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08904_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08904_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00016_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00016_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05349_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05349_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0017_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0017_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10302_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10302_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12026_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12026_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12759_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12759_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08871_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08871_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0006_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0006_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02539_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02539_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08152_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08152_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01036_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01036_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08473_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08473_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00311_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00311_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03603_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03603_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05287_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05287_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03450_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03450_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06826_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06826_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08381_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08381_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01657_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01657_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00896_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00896_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07207_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07207_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08631_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08631_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08154_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08154_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08155_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08155_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0013_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0013_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00677_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00677_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05372_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05372_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_04441_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_04441_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00327_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00327_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00326_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00326_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05337_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05337_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09859_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09859_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05217_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05217_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00129_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00129_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09753_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09753_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08656_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08656_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01065_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01065_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0016_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0016_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01064_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01064_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01655_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01655_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08655_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08655_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07088_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07088_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0005_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0005_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05224_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05224_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01839_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01839_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05705_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05705_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0001_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0001_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05335_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05335_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05345_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05345_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00557_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00557_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02901_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02901_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09364_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09364_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12765_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12765_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11921_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11921_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06976_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06976_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01567_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01567_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06750_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06750_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00264_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00264_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05246_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05246_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00805_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00805_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05241_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05241_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08419_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08419_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0001_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0001_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09626_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09626_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00515_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00515_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03448_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03448_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09999_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09999_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00285_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00285_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11583_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11583_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06974_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06974_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09365_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09365_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10168_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10168_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00286_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00286_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0003_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0003_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05377_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05377_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01140_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01140_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05333_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05333_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03859_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03859_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08153_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08153_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02959_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02959_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02996_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02996_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0019_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0019_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05684_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05684_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11645_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11645_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07968_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07968_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11845_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11845_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09973_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09973_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00506_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00506_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00266_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00266_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0013_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0013_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00132_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00132_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05229_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05229_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05249_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05249_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00442_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00442_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08984_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08984_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09918_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09918_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03090_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03090_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05586_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05586_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03356_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03356_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05588_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05588_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01208_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01208_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05343_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05343_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12860_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12860_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01125_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01125_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0014_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0014_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10494_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10494_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00463_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00463_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03627_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03627_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06975_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06975_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03054_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03054_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05238_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05238_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07063_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07063_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11923_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11923_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08841_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08841_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08380_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08380_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05472_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05472_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00955_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00955_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0020_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0020_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01211_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01211_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03091_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03091_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01725_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01725_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0004_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0004_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01038_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01038_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0015_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0015_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08870_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08870_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01963_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01963_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08003_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08003_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12448_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12448_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05406_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05406_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08005_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08005_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06973_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06973_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01235_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01235_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09666_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09666_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03658_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03658_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09572_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09572_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0016_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0016_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10228_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10228_L.xml"
+      }
+    ],
+    "val": [
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05339_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05339_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00773_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00773_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09974_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09974_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06091_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06091_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00018_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00018_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06977_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06977_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08002_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08002_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12615_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12615_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01210_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01210_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07549_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07549_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00954_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00954_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02666_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02666_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02853_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02853_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00624_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00624_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02802_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02802_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06932_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06932_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03604_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03604_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11518_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11518_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_11038_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_11038_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00209_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00209_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_14483_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_14483_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10048_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10048_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01440_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01440_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08872_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08872_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01037_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01037_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07087_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07087_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0012_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0012_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00017_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00017_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08275_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08275_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00875_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00875_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05506_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05506_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02772_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02772_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06593_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06593_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_06825_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_06825_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09625_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09625_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01545_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01545_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05375_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05375_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00085_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00085_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02903_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02903_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00325_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00325_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05341_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05341_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03628_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03628_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08471_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08471_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0012_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0012_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09290_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09290_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01209_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01209_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05835_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05835_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02542_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02542_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09816_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09816_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02770_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02770_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00207_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00207_L.xml"
+      }
+    ],
+    "test": [
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02958_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02958_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0002_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0002_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0012_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0012_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02368_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02368_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08758_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08758_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00957_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00957_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00507_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00507_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_12171_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_12171_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_02540_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_02540_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0005_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0005_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08200_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08200_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00516_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00516_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09222_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09222_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08756_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08756_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0002_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0002_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10000_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10000_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_09340_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_09340_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01290_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01290_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05618_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05618_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03544_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03544_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01021_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01021_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03307_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03307_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0008_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0008_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08202_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08202_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07014_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07014_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08379_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08379_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00878_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00878_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05411_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05411_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0007_Main_frame.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0007_Main_frame.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05710_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05710_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05244_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05244_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01040_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01040_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01020_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01020_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00156_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00156_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0008_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0008_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0009_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0009_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_03309_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_03309_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05652_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05652_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00130_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00130_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_05355_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_05355_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_10569_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_10569_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0018_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0018_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_07966_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_07966_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00228_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00228_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08536_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08536_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_00443_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_00443_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\LL123_0020_Right.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\LL123_0020_Right.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01124_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01124_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01237_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01237_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_08567_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_08567_L.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\0007_Left.jpeg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\0007_Left.xml"
+      },
+      {
+        "image": "data\\HTR_Ground-Truth\\images\\FRAN_0393_01035_L.jpg",
+        "xml": "data\\HTR_Ground-Truth\\page_xml\\FRAN_0393_01035_L.xml"
+      }
+    ]
+  }
+}
