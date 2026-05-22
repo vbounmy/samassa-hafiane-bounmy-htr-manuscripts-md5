@@ -1,0 +1,38 @@
+# ==============================================================================
+# HTR Project - Ancient Manuscripts Cursive Evolution
+# Requirements file for Python 3.13+
+# ==============================================================================
+
+# --- Manipulation d'images et Vision (Prétraitement & Segmentation) ---
+opencv-python>=4.10.0.84
+scikit-image>=0.24.0
+pillow>=10.4.0
+numpy>=2.1.0
+scipy>=1.14.0
+shapely>=2.0.6
+
+# --- Apprentissage Profond & HTR ---
+torch>=2.5.0
+torchvision>=0.20.0
+transformers>=4.46.0
+peft>=0.13.0
+accelerate>=1.0.0
+datasets>=3.0.0
+evaluate>=0.4.3
+# Kraken est optionnel sur Windows car il nécessite des dépendances C lourdes
+# (Pango, Cairo, etc.) et pose des soucis de compilation sans WSL/Linux.
+# # kraken>=5.2.0
+
+# --- Évaluation et Métriques ---
+# Nous utiliserons jiwer (qui possède des pré-compilés wheels rapides pour Windows).
+jiwer>=3.0.4
+statsmodels>=0.14.4
+
+# --- Qualité, Validation et Utilitaires ---
+jsonschema>=4.23.0
+pytest>=8.3.3
+tqdm>=4.66.5
+matplotlib>=3.9.2
+seaborn>=0.13.2
+pandas>=2.2.3
+
