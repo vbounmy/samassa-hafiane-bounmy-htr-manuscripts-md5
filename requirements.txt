@@ -1,0 +1,17 @@
+# Dependencies du projet htr-ndp-cursive-evolution-2026.
+# Versions figées pour garantir la reproductibilité (contrainte n°3 du brief).
+
+# Étape 2.1 — prétraitement d'images :
+opencv-python-headless==4.10.0.84
+scikit-image==0.24.0
+numpy==2.0.2
+
+# Tests :
+pytest==9.0.3
+
+# À ajouter aux étapes ultérieures :
+# kraken              # HTR engine + segmentation BLLA (étapes 2.2-2.3, étape 3)
+# Pillow              # IO image
+# editdistance        # CER/WER (étape 4)
+# pandas              # analyses statistiques
+# matplotlib          # graphiques pour l'article
