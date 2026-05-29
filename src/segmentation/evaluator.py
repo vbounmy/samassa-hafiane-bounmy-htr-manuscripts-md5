@@ -81,6 +81,47 @@ def load_ground_truth_zones(
     return zones
 
 
+def load_ground_truth_lines(
+    xml_path: Path,
+    image_shape: tuple[int, int],
+) -> list[dict]:
+    """Rasterize every annotated text line of a PAGE XML page.
+
+    e-NDP encodes each line as a ``<TextLine>`` element nested inside a
+    ``<TextRegion>``. Each line has a ``<Coords>`` element giving the
+    boundary polygon. This function returns one mask per line, so that
+    a line-segmenter's output can be compared with it via IoU.
+
+    Args:
+        xml_path: Path to the PAGE XML file describing one e-NDP page.
+        image_shape: ``(height, width)`` of the source image.
+
+    Returns:
+        List of dicts ``{"line_id", "mask"}``, one per text line with a
+        valid polygon. ``mask`` is a boolean ``(H, W)`` array.
+    """
+    height, width = image_shape
+    root = ET.parse(xml_path).getroot()
+
+    lines: list[dict] = []
+    for line in root.iter(f"{{{_PAGE_NS}}}TextLine"):
+        coords_el = line.find("p:Coords", _NS)
+        if coords_el is None:
+            continue
+        polygon = _parse_points(coords_el.get("points", ""))
+        if len(polygon) < 3:
+            continue
+
+        mask = np.zeros((height, width), dtype=np.uint8)
+        cv2.fillPoly(mask, [np.array(polygon, dtype=np.int32)], color=1)
+        lines.append({
+            "line_id": line.get("id", ""),
+            "mask": mask.astype(bool),
+        })
+    return lines
+
+
+
 def iou(mask_a: np.ndarray, mask_b: np.ndarray) -> float:
     """Intersection-over-union between two boolean masks.
 
