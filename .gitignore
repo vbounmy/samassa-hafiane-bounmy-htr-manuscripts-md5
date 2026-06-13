@@ -223,6 +223,7 @@ venv/
 .venv/
 models/
 checkpoints/
+run_kraken_training.sh
 *.mlmodel
 *.pth
 *.pt
