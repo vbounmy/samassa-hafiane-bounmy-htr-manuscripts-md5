@@ -164,22 +164,3 @@ pytest tests/ -p no:cacheprovider
 
 Les tests actuels couvrent le pretraitement, la segmentation fallback, le parsing
 PAGE XML, les crops de lignes, le journal JSONL et le script Kraken genere.
-
-## Workflow Git recommande
-
-Depuis `entrainement_fine-tuning` :
-
-```powershell
-git status
-git add .gitignore README.md src/prepare_htr_dataset.py src/train_trocr.py src/train_kraken.py tests/test_training.py
-git commit -m "Complete HTR fine-tuning workflow"
-git checkout agregation_evaluation_finale
-git merge entrainement_fine-tuning
-```
-
-Apres l'etape 4 :
-
-```powershell
-git checkout main
-git merge agregation_evaluation_finale
-```
