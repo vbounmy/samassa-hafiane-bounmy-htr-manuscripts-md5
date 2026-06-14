@@ -1,12 +1,23 @@
 # HTR manuscrits MD5
 
-Pipeline HTR pour le corpus ANR e-NDP Ground Truth, avec un axe d'analyse sur
-l'evolution de la cursive sur deux siecles. Le depot est organise par branches :
+Ce dépôt contient le code du projet réalisé dans le cadre du module **MD5 : Vision par ordinateur**.
+L'objectif est de construire un pipeline HTR hybride pour le corpus ANR e-NDP Ground Truth,
+avec une attention particulière à l'évolution de l'écriture cursive sur deux siècles.
 
-- `main` : integration finale de toutes les etapes.
-- `pretraitement_segmentation` : etape 2, pretraitement, segmentation et splits.
-- `entrainement_fine-tuning` : etape 3, baselines et fine-tuning HTR.
-- `agregation_evaluation_finale` : etape 4, aggregation, evaluation et JSON NLP.
+## Équipe et contexte
+
+- Membres : Aby SAMASSA, Fares HAFIANE, Valentine BOUNMY
+- Établissement : HETIC
+- Contexte : module MD5 Vision par ordinateur, projet de traitement de documents manuscrits historiques.
+
+## Structure du dépôt
+
+Le dépôt est organisé par branches :
+
+- `main` : intégration finale de toutes les étapes.
+- `pretraitement_segmentation` : étape 2, prétraitement, segmentation et splits.
+- `entrainement_fine-tuning` : étape 3, baselines et fine-tuning HTR.
+- `agregation_evaluation_finale` : étape 4, agrégation, évaluation et JSON NLP.
 
 ## Etat des branches
 
