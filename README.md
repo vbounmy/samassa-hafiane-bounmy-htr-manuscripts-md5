@@ -8,10 +8,7 @@ l'evolution de la cursive sur deux siecles. Le depot est organise par branches :
 - `entrainement_fine-tuning` : etape 3, baselines et fine-tuning HTR.
 - `agregation_evaluation_finale` : etape 4, aggregation, evaluation et JSON NLP.
 
-## Etat actuel
-
-Les étapes 1 à 3 sont déjà réalisées. La branche `agregation_evaluation_finale`
-contient le workflow final d'agrégation, calibration et évaluation finale.
+## Etat des branches
 
 - `main` : intégration finale de toutes les étapes.
 - `pretraitement_segmentation` : étape 2, prétraitement, segmentation et splits.
@@ -164,22 +161,3 @@ pytest tests/ -p no:cacheprovider
 
 Les tests actuels couvrent le pretraitement, la segmentation fallback, le parsing
 PAGE XML, les crops de lignes, le journal JSONL et le script Kraken genere.
-
-## Workflow Git recommande
-
-Depuis `entrainement_fine-tuning` :
-
-```powershell
-git status
-git add .gitignore README.md src/prepare_htr_dataset.py src/train_trocr.py src/train_kraken.py tests/test_training.py
-git commit -m "Complete HTR fine-tuning workflow"
-git checkout agregation_evaluation_finale
-git merge entrainement_fine-tuning
-```
-
-Apres l'etape 4 :
-
-```powershell
-git checkout main
-git merge agregation_evaluation_finale
-```

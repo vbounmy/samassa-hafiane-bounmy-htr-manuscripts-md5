@@ -104,11 +104,22 @@ def main() -> None:
     from peft import LoraConfig, get_peft_model
     from transformers import (
         TrOCRProcessor,
+        VisionEncoderDecoderConfig,
         VisionEncoderDecoderModel,
         Seq2SeqTrainer,
         Seq2SeqTrainingArguments,
         default_data_collator,
     )
+
+    if not hasattr(VisionEncoderDecoderConfig, "vocab_size"):
+        def _get_vocab_size(self):
+            decoder = getattr(self, "decoder", None)
+            return getattr(decoder, "vocab_size", None) if decoder is not None else self.__dict__.get("vocab_size")
+
+        def _set_vocab_size(self, value):
+            self.__dict__["vocab_size"] = value
+
+        VisionEncoderDecoderConfig.vocab_size = property(_get_vocab_size, _set_vocab_size)
 
     parser = argparse.ArgumentParser(description="Fine-tuning de TrOCR avec LoRA.")
     parser.add_argument(
@@ -218,11 +229,17 @@ def main() -> None:
     model.config.pad_token_id = processor.tokenizer.pad_token_id
     model.config.vocab_size = model.config.decoder.vocab_size
     model.config.eos_token_id = processor.tokenizer.sep_token_id
-    model.config.max_length = 64
-    model.config.early_stopping = True
-    model.config.no_repeat_ngram_size = 3
-    model.config.length_penalty = 2.0
-    model.config.num_beams = 4
+
+    # Paramètres de génération à configurer via generation_config
+    if getattr(model, "generation_config", None) is None:
+        from transformers import GenerationConfig
+
+        model.generation_config = GenerationConfig()
+    model.generation_config.max_length = 64
+    model.generation_config.early_stopping = True
+    model.generation_config.no_repeat_ngram_size = 3
+    model.generation_config.length_penalty = 2.0
+    model.generation_config.num_beams = 4
 
     # Fonction de transformation à la volée (économise la mémoire vive et évite le cache disque volumineux)
     def transform(examples):
@@ -271,6 +288,7 @@ def main() -> None:
         per_device_eval_batch_size=args.batch_size,
         predict_with_generate=True,
         use_cpu=True if args.smoke_test else False,
+        remove_unused_columns=False,
         report_to="none"
     )
     
@@ -316,7 +334,7 @@ def main() -> None:
     logger.info("[*] Configuration du pipeline d'entraînement...")
     training_args = Seq2SeqTrainingArguments(
         output_dir=os.path.join(root_dir, args.output_dir),
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=args.lr,
         per_device_train_batch_size=args.batch_size,
