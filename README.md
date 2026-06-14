@@ -10,16 +10,16 @@ l'evolution de la cursive sur deux siecles. Le depot est organise par branches :
 
 ## Etat actuel
 
-Les etapes 1 et 2 sont deja realisees. La branche courante
-`entrainement_fine-tuning` contient les scripts pour :
+Les étapes 1 à 3 sont déjà réalisées. La branche `agregation_evaluation_finale`
+contient le workflow final d'agrégation, calibration et évaluation finale.
 
-- extraire les lignes depuis les PAGE XML vers `data/processed_lines`;
-- evaluer TrOCR sans fine-tuning, puis fine-tuner TrOCR avec LoRA;
-- exporter le corpus au format Kraken/Ketos;
-- journaliser les experiences dans `experiments/journal.jsonl`.
+- `main` : intégration finale de toutes les étapes.
+- `pretraitement_segmentation` : étape 2, prétraitement, segmentation et splits.
+- `entrainement_fine-tuning` : étape 3, baselines et fine-tuning HTR.
+- `agregation_evaluation_finale` : étape 4, agrégation, calibration, evaluation et JSON NLP.
 
-Le test set reste scelle dans `experiments/splits.json`. Ne l'utilisez pas pour
-choisir les hyperparametres.
+Le test set reste scellé dans `experiments/splits.json`. Ne l'utilisez pas pour
+choisir les hyperparamètres.
 
 ## Installation
 
@@ -102,6 +102,59 @@ Sous Linux/WSL/Colab :
 ```bash
 bash run_kraken_training.sh
 ```
+
+## Etape 4 : agrégation et évaluation finale
+
+Après génération des prédictions TrOCR et Kraken, utilisez le workflow final
+suivant pour produire l'agrégé, calibrer les confiances, construire le dataset
+NLP et valider les résultats.
+
+### Agrégation
+
+```powershell
+python -m src.aggregation ^
+  --metadata data/processed_lines/train/metadata.jsonl ^
+  --prediction trocr=predictions/trocr.jsonl ^
+  --prediction kraken=predictions/kraken.jsonl ^
+  --output experiments/aggregated_predictions.jsonl
+```
+
+### Calibration des confiances
+
+```powershell
+python -m src.calibration ^
+  --input experiments/aggregated_predictions.jsonl ^
+  --output experiments/aggregated_calibrated.jsonl ^
+  --bins 10 ^
+  --smoothing 1.0
+```
+
+### Construction du dataset final
+
+```powershell
+python -m src.data_contract ^
+  --records experiments/aggregated_calibrated.jsonl ^
+  --output dataset_nlp/transcriptions.json
+```
+
+### Évaluation finale
+
+```powershell
+python -m src.evaluation ^
+  --predictions experiments/aggregated_calibrated.jsonl ^
+  --output experiments/final_metrics.json
+```
+
+### Validation géométrique
+
+```powershell
+python -m src.validate_geometry ^
+  --records experiments/aggregated_calibrated.jsonl ^
+  --images_dir data/HTR_Ground-Truth/images_docs ^
+  --output experiments/geometry_report.json
+```
+
+Ajustez `--images_dir` selon le dossier qui contient les pages source si besoin.
 
 ## Tests
 
